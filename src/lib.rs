@@ -15,3 +15,11 @@ impl Display for NoError{
 impl Error for NoError{
 
 }
+#[cfg(feature = "embedded-io")]
+impl embedded_io::Error for NoError{
+    fn kind(&self) -> embedded_io::ErrorKind {
+        match *self{
+            
+        }
+    }
+}

@@ -6,3 +6,7 @@ license = "CC0-1.0"
 description = "Error type for no error"
 
 [dependencies]
+embedded-io = { version = "0.6.1", optional = true }
+
+[features]
+embedded-io = ["dep:embedded-io"]
