@@ -1,13 +1,14 @@
 # no-error
 
 ## Description
-Project no-error
+"Error type for no error" (`no-error-type`). A utility crate defining a `NoError` or similar type, compatible with embedded traits.
 
 ## Goals
-- [ ] Add project goals
+- [ ] Provide standard `NoError` type
+- [ ] Support `embedded-io` traits
 
 ## Progress
-- [ ] Initial setup
+- [ ] Crate initialized
 
 ---
 *AI assisted*
